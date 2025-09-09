@@ -48,5 +48,20 @@ PRODUCT_PACKAGES += \
     create_pl_dev \
     create_pl_dev.recovery
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.mt6989 \
+    fstab.mt6989.vendor_ramdisk \
+    init.batterysecret.rc \
+    init.connectivity.rc \
+    init.fingerprint.rc \
+    init.mi_thermald.rc \
+    init.modem.rc \
+    init.mt6989.rc \
+    init.mt6989.usb.rc \
+    init.mtkgki.rc \
+    init.sensor_2_0.rc \
+    ueventd.mt6989.rc
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/rothko/rothko-vendor.mk)
