@@ -2634,6 +2634,7 @@ vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libnotifyaudiohal.so;FIX_SONAME
 vendor/lib64/libhfmanager.so
 vendor/lib64/libksensor.so
+vendor/etc/sensors/hals.conf
 
 # Soter
 odm/etc/init/vendor.xiaomi.hardware.soterservice-service.rc
