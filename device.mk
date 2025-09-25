@@ -194,6 +194,10 @@ PRODUCT_PACKAGES += \
     android.hardware.usb-service.mediatek \
     android.hardware.usb.gadget-service.mediatek
 
+# Vendor service manager
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6989 \
