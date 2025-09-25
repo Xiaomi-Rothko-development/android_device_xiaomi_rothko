@@ -156,6 +156,11 @@ PRODUCT_PACKAGES += \
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
 
+# Media
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/seccomp,$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy) \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-subhal-impl-1.0 \
