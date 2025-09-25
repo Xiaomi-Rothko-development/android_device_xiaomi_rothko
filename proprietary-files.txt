@@ -274,6 +274,31 @@ vendor/lib64/libmtkcam_hal_custom_utils.so
 vendor/lib64/libmtkcam_perfctrl_wrapper.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/lib3a.ae.pipe.so
+vendor/lib64/lib3a.custom.shading.flow.so
+vendor/lib64/mt6989/lib3a.ae.so;SYMLINK=vendor/lib64/lib3a.ae.so
+vendor/lib64/mt6989/lib3a.ae.stat.so;SYMLINK=vendor/lib64/lib3a.ae.stat.so
+vendor/lib64/mt6989/lib3a.af.assist.models1d.so;SYMLINK=vendor/lib64/lib3a.af.assist.models1d.so
+vendor/lib64/mt6989/lib3a.af.assist.models2d.so;SYMLINK=vendor/lib64/lib3a.af.assist.models2d.so
+vendor/lib64/mt6989/lib3a.af.assist.so;SYMLINK=vendor/lib64/lib3a.af.assist.so
+vendor/lib64/mt6989/lib3a.af.assist.utils.so;SYMLINK=vendor/lib64/lib3a.af.assist.utils.so
+vendor/lib64/mt6989/lib3a.af.core.so;SYMLINK=vendor/lib64/lib3a.af.core.so
+vendor/lib64/mt6989/lib3a.af.so;SYMLINK=vendor/lib64/lib3a.af.so
+vendor/lib64/mt6989/lib3a.aishutter.so;SYMLINK=vendor/lib64/lib3a.aishutter.so
+vendor/lib64/mt6989/lib3a.alsflicker.so;SYMLINK=vendor/lib64/lib3a.alsflicker.so
+vendor/lib64/mt6989/lib3a.awb.core.so;SYMLINK=vendor/lib64/lib3a.awb.core.so
+vendor/lib64/mt6989/lib3a.awbsync.so;SYMLINK=vendor/lib64/lib3a.awbsync.so
+vendor/lib64/mt6989/lib3a.cculog.so;SYMLINK=vendor/lib64/lib3a.cculog.so
+vendor/lib64/mt6989/lib3a.custom.ae.flow.so;SYMLINK=vendor/lib64/lib3a.custom.ae.flow.so
+vendor/lib64/mt6989/lib3a.custom.ae.so;SYMLINK=vendor/lib64/lib3a.custom.ae.so
+vendor/lib64/mt6989/lib3a.custom.af.flow.so;SYMLINK=vendor/lib64/lib3a.custom.af.flow.so
+vendor/lib64/mt6989/lib3a.custom.awb.flow.so;SYMLINK=vendor/lib64/lib3a.custom.awb.flow.so
+vendor/lib64/mt6989/lib3a.custom.stt.flow.so;SYMLINK=vendor/lib64/lib3a.custom.stt.flow.so
+vendor/lib64/mt6989/lib3a.flash.so;SYMLINK=vendor/lib64/lib3a.flash.so
+vendor/lib64/mt6989/lib3a.flicker.so;SYMLINK=vendor/lib64/lib3a.flicker.so
+vendor/lib64/mt6989/lib3a.log.so;SYMLINK=vendor/lib64/lib3a.log.so
+vendor/lib64/mt6989/lib3a.sensors.color.so;SYMLINK=vendor/lib64/lib3a.sensors.color.so
+vendor/lib64/mt6989/lib3a.sensors.flicker.so;SYMLINK=vendor/lib64/lib3a.sensors.flicker.so
+vendor/lib64/mt6989/lib3a.stat.so;SYMLINK=vendor/lib64/lib3a.stat.so
 vendor/lib64/libAF.so
 vendor/lib64/libBasicModule.so
 vendor/lib64/libHISCppAlgos.so
@@ -1356,6 +1381,9 @@ vendor/lib64/hw/mt6989/android.hardware.graphics.mapper@4.0-impl-mediatek.so;SYM
 vendor/lib64/hw/mt6989/gralloc.common.so;SYMLINK=vendor/lib64/hw/gralloc.common.so
 vendor/lib64/hw/mt6989/vendor.mediatek.hardware.pq_aidl-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so
 vendor/lib64/hw/mt6989/vulkan.mali.so;SYMLINK=vendor/lib64/hw/vulkan.mali.so
+vendor/lib64/mt6989/arm.graphics-V4-ndk.so;SYMLINK=vendor/lib64/arm.graphics-V4-ndk.so
+vendor/lib64/mt6989/arm.mali.platform-V1-ndk.so;SYMLINK=vendor/lib64/arm.mali.platform-V1-ndk.so
+vendor/lib64/mt6989/arm.mali.platform-V2-ndk.so;SYMLINK=vendor/lib64/arm.mali.platform-V2-ndk.so
 vendor/lib64/libDefaultFpsActor.so
 vendor/lib64/libFrameRecord.so
 vendor/lib64/libNoFpsActor.so
@@ -1378,7 +1406,6 @@ vendor/lib64/libhdrvideo.so
 vendor/lib64/libion_mtk.so
 vendor/lib64/libion_ulit.so
 vendor/lib64/libladder.so
-vendor/lib64/libmml.so
 vendor/lib64/libpqframework.so
 vendor/lib64/libpqhdrmetaparser.so
 vendor/lib64/libpqsharememory.so
@@ -2391,6 +2418,16 @@ vendor/lib64/librpc.so
 vendor/lib64/libviagpsrpc.so
 vendor/lib64/mt6989/libDR.so;SYMLINK=vendor/lib64/libDR.so
 vendor/lib64/mt6989/libmnl.so;SYMLINK=vendor/lib64/libmnl.so
+vendor/lib64/mt6989/libispfeature_mtkcam.v4l2.so;SYMLINK=vendor/lib64/libispfeature_mtkcam.v4l2.so
+vendor/lib64/mt6989/libispinterpreter_mtkcam.so;SYMLINK=vendor/lib64/libispinterpreter_mtkcam.so
+vendor/lib64/mt6989/liblpnr.so;SYMLINK=vendor/lib64/liblpnr.so
+vendor/lib64/mt6989/libmdla_standalone.so;SYMLINK=vendor/lib64/libmdla_standalone.so
+vendor/lib64/mt6989/libmdla_ut.so;SYMLINK=vendor/lib64/libmdla_ut.so
+vendor/lib64/mt6989/libmfllcore.so;SYMLINK=vendor/lib64/libmfllcore.so
+vendor/lib64/mt6989/libmgr3a.adapt.so;SYMLINK=vendor/lib64/libmgr3a.adapt.so
+vendor/lib64/mt6989/libmmagent.so;SYMLINK=vendor/lib64/libmmagent.so
+vendor/lib64/mt6989/libmml.so;SYMLINK=vendor/lib64/libmml.so
+vendor/lib64/mt6989/libmmlpqImpl.so;SYMLINK=vendor/lib64/libmmlpqImpl.so
 
 # Keymint
 vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee
@@ -2705,6 +2742,7 @@ vendor/bin/tee-supplicant
 vendor/etc/init/miteelog.rc
 vendor/etc/init/tee-supplicant.rc
 vendor/lib/libteecli.so
+vendor/lib64/libtflite_mtk.so
 vendor/mitee/ta/14b0aad8-c011-4a3f-b66aca8d0e66f273.ta
 vendor/mitee/ta/2e8fade5-0c7a-46cc-810e6468baee66b9.ta
 vendor/mitee/ta/377ee4e8-af0e-474f-a9d636a9268fe85c.ta
