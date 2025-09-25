@@ -225,6 +225,7 @@ PRODUCT_PACKAGES += \
     init.mi_thermald.rc \
     init.modem.rc \
     init.mt6989.rc \
+    init.mt6989.power.rc \
     init.mt6989.usb.rc \
     init.mtkgki.rc \
     init.sensor_2_0.rc \
