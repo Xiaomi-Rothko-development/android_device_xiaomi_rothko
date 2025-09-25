@@ -198,6 +198,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
+# Vibrator
+$(call soong_config_set, vibrator, vibratortargets, vibratoraidlV2target)
+
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
+PRODUCT_COPY_FILES += \
+    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6989 \
