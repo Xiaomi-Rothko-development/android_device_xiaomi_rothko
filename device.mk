@@ -153,6 +153,9 @@ PRODUCT_PACKAGES += \
     libmtkperf_client_vendor \
     libmtkperf_client
 
+# Properties
+include $(LOCAL_PATH)/vendor_logtag.mk
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6989 \
