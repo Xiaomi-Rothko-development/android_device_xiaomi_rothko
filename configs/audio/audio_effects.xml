@@ -22,7 +22,7 @@
         <library name="proxy" path="libeffectproxy.so"/>
         <library name="loudness_enhancer" path="libldnhncr.so"/>
         <library name="dynamics_processing" path="libdynproc.so"/>
-        <library name="pre_processing" path="libaudiopreprocessing_mtk.so"/>
+        <library name="pre_processing" path="libaudiopreprocessing.so"/>
         <!--Audio-add Misound -->
         <library name="mispatializer" path="libspatializer.so"/>
         <library name="misoundfx" path="libmisoundfx.so"/>
