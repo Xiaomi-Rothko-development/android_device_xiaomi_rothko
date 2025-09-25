@@ -93,6 +93,10 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl.custom \
     fastbootd
 
+# IFAA manager
+PRODUCT_PACKAGES += \
+    IFAAService
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6989 \
