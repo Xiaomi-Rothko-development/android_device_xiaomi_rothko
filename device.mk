@@ -74,6 +74,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl
 
+# ConsumerIR
+PRODUCT_PACKAGES += \
+    android.hardware.ir-service.example
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6989 \
